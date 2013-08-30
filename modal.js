@@ -1,4 +1,4 @@
-
+//new doc for modal
 $(document).ready(function() {
 	$('.button1').click(function() {
 		console.log('what');
