@@ -1,0 +1,40 @@
+.modal {
+	overflow:hidden;
+	z-index: 1;
+	top: 40px;
+	height: 0px;
+	width: 0px;
+	background: #ff0066;
+	opacity: 0;
+}
+	
+.container {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+
+.active {
+	color: #ff0066;
+	width: 400px;
+  	height: 400px;
+	font-size: 45px;
+	background: #ff0066;
+	-webkit-transition: background 2s ease;
+			transition: background 2s ease;
+	opacity: 1;
+
+}
+
+.button1 {
+	background: #ff0066;
+}
+
+.click1 {
+	background: #ff0066;
+}
+
+.inactive {
+	opacity: 0;
+}
